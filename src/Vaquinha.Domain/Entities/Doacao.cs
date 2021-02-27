@@ -35,7 +35,7 @@ namespace Vaquinha.Domain.Entities
         public Endereco EnderecoCobranca { get; private set; }
         public CartaoCredito FormaPagamento { get; private set; }
 
-        public bool AceitaTaxa { get; private set};
+        public bool AceitaTaxa { get; private set; }
         public void AtualizarDataCompra()
         {
             DataHora = DateTime.Now;
